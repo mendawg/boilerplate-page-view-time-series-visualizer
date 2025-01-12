@@ -49,7 +49,6 @@ def draw_bar_plot():
     fig.savefig('bar_plot.png')
     return fig
 
-draw_bar_plot()
 def draw_box_plot():
     df_box = df.copy()
     df_box.reset_index(inplace=True)
